@@ -2,7 +2,7 @@ import java.util.*;
 public class AverageOfArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();//try giving size=n=5 and any 5 numbers
         int[] a = new int[n];
 
         int sum = 0;

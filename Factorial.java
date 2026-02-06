@@ -2,7 +2,7 @@ import java.util.*;
 public class Factorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();// ley n = 4
 
         long fact = 1;
         for (int i = 1; i <= n; i++) {

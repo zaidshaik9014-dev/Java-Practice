@@ -2,7 +2,7 @@ import java.util.*;
 public class CountDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();//try any number like 1234
 
         int count = 0;
         while (n != 0) {

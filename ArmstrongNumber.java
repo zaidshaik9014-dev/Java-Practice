@@ -2,7 +2,7 @@ import java.util.*;
 public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();//numbers like 153(Armstrong)
 
         int temp = n, sum = 0, dig = 0;
 

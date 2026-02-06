@@ -2,7 +2,7 @@ import java.util.*;
 public class EvenOddDigitSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt();//try giving any number like 123456
 
         int esum = 0, osum = 0;
 
